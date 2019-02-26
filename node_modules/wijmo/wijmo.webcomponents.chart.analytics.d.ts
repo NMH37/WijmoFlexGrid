@@ -1,0 +1,79 @@
+import * as wjcWebcomponentsBase from 'wijmo/wijmo.webcomponents.base';
+import * as wjcChartAnalytics from 'wijmo/wijmo.chart.analytics';
+export declare class WjcFlexChartTrendLine extends HTMLElement {
+    static wrappedClass: () => typeof wjcChartAnalytics.TrendLine;
+    static parentProp: string;
+    static siblingId: string;
+    _wjBehaviour: wjcWebcomponentsBase.WjComponentBehavior;
+    constructor();
+    static readonly observedAttributes: wjcWebcomponentsBase.IPropsMeta;
+    connectedCallback(): void;
+    attributeChangedCallback(name: string, oldValue: string, newValue: string): void;
+    disconnectedCallback(): void;
+}
+export declare class WjcFlexChartMovingAverage extends HTMLElement {
+    static wrappedClass: () => typeof wjcChartAnalytics.MovingAverage;
+    static parentProp: string;
+    static siblingId: string;
+    _wjBehaviour: wjcWebcomponentsBase.WjComponentBehavior;
+    constructor();
+    static readonly observedAttributes: wjcWebcomponentsBase.IPropsMeta;
+    connectedCallback(): void;
+    attributeChangedCallback(name: string, oldValue: string, newValue: string): void;
+    disconnectedCallback(): void;
+}
+export declare class WjcFlexChartYFunctionSeries extends HTMLElement {
+    static wrappedClass: () => typeof wjcChartAnalytics.YFunctionSeries;
+    static parentProp: string;
+    static siblingId: string;
+    _wjBehaviour: wjcWebcomponentsBase.WjComponentBehavior;
+    constructor();
+    static readonly observedAttributes: wjcWebcomponentsBase.IPropsMeta;
+    connectedCallback(): void;
+    attributeChangedCallback(name: string, oldValue: string, newValue: string): void;
+    disconnectedCallback(): void;
+}
+export declare class WjcFlexChartParametricFunctionSeries extends HTMLElement {
+    static wrappedClass: () => typeof wjcChartAnalytics.ParametricFunctionSeries;
+    static parentProp: string;
+    static siblingId: string;
+    _wjBehaviour: wjcWebcomponentsBase.WjComponentBehavior;
+    constructor();
+    static readonly observedAttributes: wjcWebcomponentsBase.IPropsMeta;
+    connectedCallback(): void;
+    attributeChangedCallback(name: string, oldValue: string, newValue: string): void;
+    disconnectedCallback(): void;
+}
+export declare class WjcFlexChartWaterfall extends HTMLElement {
+    static wrappedClass: () => typeof wjcChartAnalytics.Waterfall;
+    static parentProp: string;
+    static siblingId: string;
+    _wjBehaviour: wjcWebcomponentsBase.WjComponentBehavior;
+    constructor();
+    static readonly observedAttributes: wjcWebcomponentsBase.IPropsMeta;
+    connectedCallback(): void;
+    attributeChangedCallback(name: string, oldValue: string, newValue: string): void;
+    disconnectedCallback(): void;
+}
+export declare class WjcFlexChartBoxWhisker extends HTMLElement {
+    static wrappedClass: () => typeof wjcChartAnalytics.BoxWhisker;
+    static parentProp: string;
+    static siblingId: string;
+    _wjBehaviour: wjcWebcomponentsBase.WjComponentBehavior;
+    constructor();
+    static readonly observedAttributes: wjcWebcomponentsBase.IPropsMeta;
+    connectedCallback(): void;
+    attributeChangedCallback(name: string, oldValue: string, newValue: string): void;
+    disconnectedCallback(): void;
+}
+export declare class WjcFlexChartErrorBar extends HTMLElement {
+    static wrappedClass: () => typeof wjcChartAnalytics.ErrorBar;
+    static parentProp: string;
+    static siblingId: string;
+    _wjBehaviour: wjcWebcomponentsBase.WjComponentBehavior;
+    constructor();
+    static readonly observedAttributes: wjcWebcomponentsBase.IPropsMeta;
+    connectedCallback(): void;
+    attributeChangedCallback(name: string, oldValue: string, newValue: string): void;
+    disconnectedCallback(): void;
+}

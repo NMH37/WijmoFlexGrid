@@ -1,0 +1,52 @@
+import * as wjcMeta from 'wijmo/wijmo.meta';
+export interface IPropsMeta {
+    [name: string]: wjcMeta.PropDescBase;
+}
+export declare class WjComponentBehavior {
+    private static readonly _typeSiblingIdAttr;
+    static readonly _behClassProp: string;
+    static readonly _behProp: string;
+    static readonly _beforeInitParent: string;
+    static readonly _afterInitParent: string;
+    private static _siblingDirId;
+    private static _cmpRegId;
+    private static _registered;
+    private _siblingId;
+    private _isMounted;
+    private _mountedCBs;
+    private _isDomInitialized;
+    private _initialValues;
+    control: any;
+    readonly component: HTMLElement;
+    parentComponent: HTMLElement;
+    ['constructor']: typeof WjComponentBehavior;
+    static _attach(component: HTMLElement): WjComponentBehavior;
+    constructor(component: any);
+    static register(name: string, componentType: any): void;
+    static getProps(componentType: any): IPropsMeta;
+    static ensureNs(ns: string, ...symbolNames: string[]): boolean;
+    readonly isWrapper: boolean;
+    lhConnected(): void;
+    lhDisconnected(): void;
+    lhAttributeChanged(name: string, oldValue: string, newValue: string): void;
+    private _initParent();
+    private _prepareControl();
+    _initDom(): void;
+    private _createControl();
+    private _initEvents();
+    private _onAttributeChanged(name, oldValue, newValue);
+    private _flushInitialValues();
+    private _isChild();
+    private _isParentInCtor();
+    private _getParentProp();
+    private _getSiblingIndex();
+    private _getElement();
+    private static _getControlType(componentType);
+    private static _getMetaDataId(componentType);
+    private static _getMetaData(componentType);
+    private static _getPropsMetaData(componentType);
+    private static _ensureMetadata(componentType);
+    private _callCmpMethod(method, ...args);
+    static toCamelCase(s: string): string;
+    static toDash(s: string): string;
+}

@@ -1,0 +1,13 @@
+import * as wjcReactBase from 'wijmo/wijmo.react.base';
+export declare class FlexRadar extends wjcReactBase.ComponentBase {
+    constructor(props: any);
+}
+export declare class FlexRadarAxis extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    constructor(props: any);
+}
+export declare class FlexRadarSeries extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}

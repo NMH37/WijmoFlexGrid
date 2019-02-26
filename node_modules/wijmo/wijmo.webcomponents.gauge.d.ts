@@ -1,0 +1,39 @@
+import * as wjcWebcomponentsBase from 'wijmo/wijmo.webcomponents.base';
+import * as wjcGauge from 'wijmo/wijmo.gauge';
+export declare class WjcLinearGauge extends wjcGauge.LinearGauge {
+    _wjBehaviour: wjcWebcomponentsBase.WjComponentBehavior;
+    constructor();
+    static readonly observedAttributes: wjcWebcomponentsBase.IPropsMeta;
+    connectedCallback(): void;
+    attributeChangedCallback(name: string, oldValue: string, newValue: string): void;
+    disconnectedCallback(): void;
+    addEventListener(...args: any[]): void;
+}
+export declare class WjcBulletGraph extends wjcGauge.BulletGraph {
+    _wjBehaviour: wjcWebcomponentsBase.WjComponentBehavior;
+    constructor();
+    static readonly observedAttributes: wjcWebcomponentsBase.IPropsMeta;
+    connectedCallback(): void;
+    attributeChangedCallback(name: string, oldValue: string, newValue: string): void;
+    disconnectedCallback(): void;
+    addEventListener(...args: any[]): void;
+}
+export declare class WjcRadialGauge extends wjcGauge.RadialGauge {
+    _wjBehaviour: wjcWebcomponentsBase.WjComponentBehavior;
+    constructor();
+    static readonly observedAttributes: wjcWebcomponentsBase.IPropsMeta;
+    connectedCallback(): void;
+    attributeChangedCallback(name: string, oldValue: string, newValue: string): void;
+    disconnectedCallback(): void;
+    addEventListener(...args: any[]): void;
+}
+export declare class WjcRange extends HTMLElement {
+    static wrappedClass: () => typeof wjcGauge.Range;
+    static parentProp: string;
+    _wjBehaviour: wjcWebcomponentsBase.WjComponentBehavior;
+    constructor();
+    static readonly observedAttributes: wjcWebcomponentsBase.IPropsMeta;
+    connectedCallback(): void;
+    attributeChangedCallback(name: string, oldValue: string, newValue: string): void;
+    disconnectedCallback(): void;
+}

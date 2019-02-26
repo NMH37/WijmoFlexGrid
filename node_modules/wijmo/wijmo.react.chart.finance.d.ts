@@ -1,0 +1,9 @@
+import * as wjcReactBase from 'wijmo/wijmo.react.base';
+export declare class FinancialChart extends wjcReactBase.ComponentBase {
+    constructor(props: any);
+}
+export declare class FinancialChartSeries extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}

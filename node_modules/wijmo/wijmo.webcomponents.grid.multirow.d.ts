@@ -1,0 +1,11 @@
+import * as wjcWebcomponentsBase from 'wijmo/wijmo.webcomponents.base';
+import * as wjcGridMultirow from 'wijmo/wijmo.grid.multirow';
+export declare class WjcMultiRow extends wjcGridMultirow.MultiRow {
+    _wjBehaviour: wjcWebcomponentsBase.WjComponentBehavior;
+    constructor();
+    static readonly observedAttributes: wjcWebcomponentsBase.IPropsMeta;
+    connectedCallback(): void;
+    attributeChangedCallback(name: string, oldValue: string, newValue: string): void;
+    disconnectedCallback(): void;
+    addEventListener(...args: any[]): void;
+}

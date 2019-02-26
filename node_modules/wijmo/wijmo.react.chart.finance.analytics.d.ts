@@ -1,0 +1,66 @@
+import * as wjcReactBase from 'wijmo/wijmo.react.base';
+export declare class FlexChartFibonacci extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}
+export declare class FlexChartFibonacciArcs extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}
+export declare class FlexChartFibonacciFans extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}
+export declare class FlexChartFibonacciTimeZones extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}
+export declare class FlexChartAtr extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}
+export declare class FlexChartCci extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}
+export declare class FlexChartRsi extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}
+export declare class FlexChartWilliamsR extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}
+export declare class FlexChartMacd extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}
+export declare class FlexChartMacdHistogram extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}
+export declare class FlexChartStochastic extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}
+export declare class FlexChartBollingerBands extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}
+export declare class FlexChartEnvelopes extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}

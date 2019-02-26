@@ -1,0 +1,10 @@
+import * as wjcReactBase from 'wijmo/wijmo.react.base';
+export declare class FlexChartAnnotationLayer extends wjcReactBase.ComponentBase {
+    _parentInCtor: boolean;
+    constructor(props: any);
+}
+export declare class FlexChartAnnotation extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    constructor(props: any);
+    protected _createControl(): any;
+}

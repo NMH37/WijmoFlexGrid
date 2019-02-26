@@ -1,0 +1,38 @@
+/// <reference types="react" />
+import * as React from 'react';
+export declare class ComponentBase extends React.Component<any, any> {
+    static readonly _propsParent: string;
+    static readonly _typeSiblingIdProp: string;
+    static _siblingDirId: number;
+    private _objPropHash;
+    private _isMounted;
+    private _mountedCBs;
+    private _siblingInsertedEH;
+    controlType: any;
+    props: any;
+    control: any;
+    parent: ComponentBase;
+    protected _parentProp: string;
+    protected _parentInCtor: boolean;
+    protected _siblingId: string;
+    constructor(props: any, controlType: any, meta?: any);
+    render(): React.DOMElement<any, Element>;
+    componentDidMount(): any;
+    componentWillUnmount(): void;
+    shouldComponentUpdate(nextProps: any): boolean;
+    _mountedCB(cb: () => void): void;
+    protected _createControl(): any;
+    private _prepareControl();
+    protected _initParent(): void;
+    private _setParent(parent);
+    private _isChild();
+    private _isParentInCtor();
+    private _getParentProp();
+    private _getSiblingIndex();
+    private _siblingInserted(e);
+    private _copy(dst, src, isInit?);
+    private _sameValue(v1, v2);
+    private _isEvent(ctrl, propName);
+    private _getElement();
+    private _ignoreProp(prop);
+}

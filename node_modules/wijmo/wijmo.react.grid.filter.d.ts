@@ -1,0 +1,5 @@
+import * as wjcReactBase from 'wijmo/wijmo.react.base';
+export declare class FlexGridFilter extends wjcReactBase.ComponentBase {
+    _parentInCtor: boolean;
+    constructor(props: any);
+}

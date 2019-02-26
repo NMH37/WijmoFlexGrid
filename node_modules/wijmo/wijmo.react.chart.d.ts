@@ -1,0 +1,41 @@
+import * as wjcReactBase from 'wijmo/wijmo.react.base';
+export declare class FlexChart extends wjcReactBase.ComponentBase {
+    constructor(props: any);
+}
+export declare class FlexPie extends wjcReactBase.ComponentBase {
+    constructor(props: any);
+}
+export declare class FlexChartAxis extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    constructor(props: any);
+}
+export declare class FlexChartLegend extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _parentInCtor: boolean;
+    constructor(props: any);
+}
+export declare class FlexChartDataLabel extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    constructor(props: any);
+}
+export declare class FlexPieDataLabel extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    constructor(props: any);
+}
+export declare class FlexChartSeries extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}
+export declare class FlexChartLineMarker extends wjcReactBase.ComponentBase {
+    _parentInCtor: boolean;
+    constructor(props: any);
+}
+export declare class FlexChartDataPoint extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    constructor(props: any);
+}
+export declare class FlexChartPlotArea extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    constructor(props: any);
+}

@@ -1,0 +1,22 @@
+import * as wjcWebcomponentsBase from 'wijmo/wijmo.webcomponents.base';
+import * as wjcChartFinance from 'wijmo/wijmo.chart.finance';
+export declare class WjcFinancialChart extends wjcChartFinance.FinancialChart {
+    _wjBehaviour: wjcWebcomponentsBase.WjComponentBehavior;
+    constructor();
+    static readonly observedAttributes: wjcWebcomponentsBase.IPropsMeta;
+    connectedCallback(): void;
+    attributeChangedCallback(name: string, oldValue: string, newValue: string): void;
+    disconnectedCallback(): void;
+    addEventListener(...args: any[]): void;
+}
+export declare class WjcFinancialChartSeries extends HTMLElement {
+    static wrappedClass: () => typeof wjcChartFinance.FinancialSeries;
+    static parentProp: string;
+    static siblingId: string;
+    _wjBehaviour: wjcWebcomponentsBase.WjComponentBehavior;
+    constructor();
+    static readonly observedAttributes: wjcWebcomponentsBase.IPropsMeta;
+    connectedCallback(): void;
+    attributeChangedCallback(name: string, oldValue: string, newValue: string): void;
+    disconnectedCallback(): void;
+}

@@ -1,0 +1,9 @@
+import * as wjcReactBase from 'wijmo/wijmo.react.base';
+export declare class FlexGrid extends wjcReactBase.ComponentBase {
+    constructor(props: any);
+}
+export declare class FlexGridColumn extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    constructor(props: any);
+    protected _initParent(): void;
+}

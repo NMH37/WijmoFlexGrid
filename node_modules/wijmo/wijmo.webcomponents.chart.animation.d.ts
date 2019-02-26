@@ -1,0 +1,12 @@
+import * as wjcWebcomponentsBase from 'wijmo/wijmo.webcomponents.base';
+import * as wjcChartAnimation from 'wijmo/wijmo.chart.animation';
+export declare class WjcFlexChartAnimation extends HTMLElement {
+    static wrappedClass: () => typeof wjcChartAnimation.ChartAnimation;
+    static parentInCtor: boolean;
+    _wjBehaviour: wjcWebcomponentsBase.WjComponentBehavior;
+    constructor();
+    static readonly observedAttributes: wjcWebcomponentsBase.IPropsMeta;
+    connectedCallback(): void;
+    attributeChangedCallback(name: string, oldValue: string, newValue: string): void;
+    disconnectedCallback(): void;
+}

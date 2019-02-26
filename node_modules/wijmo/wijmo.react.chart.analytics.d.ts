@@ -1,0 +1,36 @@
+import * as wjcReactBase from 'wijmo/wijmo.react.base';
+export declare class FlexChartTrendLine extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}
+export declare class FlexChartMovingAverage extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}
+export declare class FlexChartYFunctionSeries extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}
+export declare class FlexChartParametricFunctionSeries extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}
+export declare class FlexChartWaterfall extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}
+export declare class FlexChartBoxWhisker extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}
+export declare class FlexChartErrorBar extends wjcReactBase.ComponentBase {
+    _parentProp: string;
+    _siblingId: string;
+    constructor(props: any);
+}

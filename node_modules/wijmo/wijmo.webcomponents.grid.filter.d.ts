@@ -1,0 +1,12 @@
+import * as wjcWebcomponentsBase from 'wijmo/wijmo.webcomponents.base';
+import * as wjcGridFilter from 'wijmo/wijmo.grid.filter';
+export declare class WjcFlexGridFilter extends HTMLElement {
+    static wrappedClass: () => typeof wjcGridFilter.FlexGridFilter;
+    static parentInCtor: boolean;
+    _wjBehaviour: wjcWebcomponentsBase.WjComponentBehavior;
+    constructor();
+    static readonly observedAttributes: wjcWebcomponentsBase.IPropsMeta;
+    connectedCallback(): void;
+    attributeChangedCallback(name: string, oldValue: string, newValue: string): void;
+    disconnectedCallback(): void;
+}
